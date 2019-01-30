@@ -2,10 +2,11 @@ var ticketNum = 0;
 
 function takeANumber(lineArray){
   // adds name to line
+  ticketNum += 1;
   lineArray.push(newName)
   // calculates the person's position in line
   var linePosition = lineArray.indexOf(newName) + 1
-  var msg = `Welcome, you are number ${linePosition} in line.`
+  var msg = `Welcome, you are number ${linePosition}.`
   return msg
 }
 
