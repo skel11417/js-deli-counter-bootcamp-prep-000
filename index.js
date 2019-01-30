@@ -1,4 +1,4 @@
-var takeANumber = function(lineArray, newName){
+function takeANumber(lineArray, newName){
   lineArray.push(newName)
   var getPosition = function(array, name) {
     return array.indexOf(name) + 1
