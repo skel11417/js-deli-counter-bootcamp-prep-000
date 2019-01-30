@@ -9,7 +9,7 @@ function takeANumber(lineArray, newName){
   return msg
 };
 
-var nowServing = function(lineArray){
+function nowServing(lineArray){
   if (lineArray.length < 1) {
     return 'There is nobody waiting to be served!'
   } else {
