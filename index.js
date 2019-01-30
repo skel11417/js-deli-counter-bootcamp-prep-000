@@ -1,5 +1,7 @@
 function takeANumber(lineArray, newName){
+  // adds name to line
   lineArray.push(newName)
+  // calculates the person's position in line
   var linePosition = lineArray.indexOf(newName) + 1
   var msg = `Welcome, ${newName}. You are number ${linePosition} in line.`
   return msg
