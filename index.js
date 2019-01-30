@@ -21,7 +21,6 @@ var currentLine = function(lineArray){
   if (lineArray.length < 1) {
     return 'The line is currently empty.'
   } else {
-    var lineList = "The line is currently: ";
     for (var i = 0; i < lineArray.length; i++){
       lineList = lineList + ( i + 1) + ". " + lineArray[i]
       if (lineArray.length > i + 1 ) {
