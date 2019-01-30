@@ -12,8 +12,8 @@ function nowServing(lineArray){
     return 'There is nobody waiting to be served!'
   } else {
     var currentCustomer = lineArray.shift()
-    // return "Currently serving " + currentCustomer + "."
-    return `Currently serving ${currentCustomer}.`
+    return "Currently serving " + currentCustomer + "."
+    // return `Currently serving ${currentCustomer}.`
   }
 }
 
