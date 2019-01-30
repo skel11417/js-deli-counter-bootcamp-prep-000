@@ -3,9 +3,8 @@ function takeANumber(lineArray, newName){
   var getPosition = function(array, name) {
     return array.indexOf(name) + 1
   };
-  // var position = deliLine.indexOf(newName) + 1
-  
-  var msg =  "Welcome, " + newName + ". You are number "+ getPosition(lineArray, newName) +" in line."
+  // var msg =  "Welcome, " + newName + ". You are number "+ getPosition(lineArray, newName) +" in line."
+  msg = `
   return msg
 };
 
