@@ -1,6 +1,6 @@
 function takeANumber(lineArray, newName){
   lineArray.push(newName)
-  var linePosition = lineArray.indexOf(newName)
+  var linePosition = lineArray.indexOf(newName) + 1
   // var getPosition = function(array, name) {
   //   return array.indexOf(name) + 1
   // };
