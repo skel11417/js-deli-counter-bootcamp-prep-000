@@ -1,10 +1,11 @@
 function takeANumber(lineArray, newName){
   lineArray.push(newName)
-  var getPosition = function(array, name) {
-    return array.indexOf(name) + 1
-  };
+  linePosition = lineArray.indexOf(newName)
+  // var getPosition = function(array, name) {
+  //   return array.indexOf(name) + 1
+  // };
   // var msg =  "Welcome, " + newName + ". You are number "+ getPosition(lineArray, newName) +" in line."
-  msg = `
+  msg = `Welcome, ${newName}. You are number ${linePosition} in line.`
   return msg
 };
 
